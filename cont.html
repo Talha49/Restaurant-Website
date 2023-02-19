@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .logo h2{
+        font-size: 5vmin;
+        margin-top: 2px;
+        margin-left: 30px;
+        background: -webkit-linear-gradient(#F9AF01, #DD5616);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+    .navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    justify-content: space-between;
+   padding: 20px 10px;
+   text-decoration: none;
+   background: #181818;
+   color: aliceblue;
+   height: 100px;
+   align-items: center;
+
+}
+.navcont{
+    display: flex;
+    list-style: none;
+    align-items: center; 
+}
+.navcont li a:hover{
+    background: #5a2a13;
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+   
+}
+ul li a{
+    text-decoration: none;
+    font-size: 3vmin;
+    color: aliceblue;
+
+}
+ul li {
+    margin: 0 40px;
+}
+    .box-container{
+  
+  
+    padding: 60px;
+    
+     
+    }
+    h2{
+        font-size: 6vmin;
+        margin-top: 7%;
+        
+        
+    }
+    form{
+        position: relative;
+        padding: 40px;
+        padding-left: 40px;
+        top: 19%;
+        left: 14%;
+        font-size: 4vmin;
+        background: #fff;
+    box-shadow: 8px 5px 8px rgba(0, 0, 0, .3);
+       border: 2px solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    width: 40%;
+    }
+    form input{
+        margin-left: 30px;
+       
+    }
+    form textarea{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    form button{
+        margin-left: 40px;
+        font-size: large;
+        padding: 10px;
+        font-weight: bold;
+        width: 20%;
+        text-align: center;
+        background: linear-gradient(#ff8008, #ffc837);
+    }
+    form button:hover{
+        color: rgb(240, 240, 240);
+    background: #ff8008;
+    cursor: pointer;
+    width: 21%;
+    font-size: x-large;
+    }
+    form label{
+        font-size: larger;
+    }
+    
+</style>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <h2>TG Restaurant</h2>
+        </div>
+        <ul class="navcont">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cont.html" >Contact Us</a></li>
+        </ul>
+      </nav>
+    <div class="box-container">
+        <h2>Contact US :</h2><br>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" ><br>
+            <label for="emails">Email:</label><br>
+            <input type="email" id="email" name="email" ><br>
+            <label for="text">Your Message</label><br>
+            <textarea name="message" rows="10" cols="30">Type Your Message here....</textarea><br><br>
+            <button>Submit</button>
+          </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,376 @@
+*{
+	font-family: 'Poppins', sans-serif ;
+	box-sizing: border-box;
+}
+html,body{
+margin: 0;
+padding: 0;
+}
+.logo{
+    padding: 30px;
+    padding-left: 80px;
+    background: -webkit-linear-gradient(#F9AF01, #DD5616);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    justify-content: space-between;
+   padding: 20px 10px;
+   text-decoration: none;
+   background: #181818;
+   color: aliceblue;
+   height: 100px;
+   align-items: center;
+
+}
+.navcont{
+    display: flex;
+    list-style: none;
+    align-items: center; 
+}
+.navcont li a:hover{
+    background: #5a2a13;
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;   
+}
+ul li a{
+    text-decoration: none;
+    font-size: 3vmin;
+    color: aliceblue;
+
+}
+ul li {
+    margin: 0 40px;
+}
+.logo{
+    font-size: 3vmin;
+}
+.maincont{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #181818;
+    color: antiquewhite;
+}
+.ww{
+    flex-direction: column;
+    margin-right: 100px;
+}
+.maincont img{
+    margin-top: 10px;  
+    position: relative;
+    top: 20vh;
+}
+.ww button{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background: linear-gradient(#ff8008, #ffc837);
+}
+.ww button:hover{
+    color: rgb(240, 240, 240);
+    background: #ff8008;
+    cursor: pointer;
+    width: 18%;
+    font-size: x-large;
+}
+.ww a {
+    text-decoration: none;
+    word-spacing: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+    background: -webkit-linear-gradient(#ff8008, #ffc837);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ww a:hover{
+    color: rgb(231, 223, 223);
+    cursor: pointer;
+    font-size: x-large;
+}
+.ww #p1{
+ font-size: large;
+ background: -webkit-linear-gradient(#ff8008, #ffc837);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.ww #p2{
+    margin-top: 30px;
+    font-size: 6vmin;
+}
+.ww #p3{
+    margin-top: 30px;
+    font-size: 2vmin;
+}
+.icons{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 60vh;
+    
+
+}
+.icons .ic{
+    
+    margin-right: 10vh;
+    
+}
+.icons .ic h3{
+    font-size: 4vmin;
+}
+.icons .ic p{
+    margin-top: 10px;
+}
+
+.icons .ic2{
+ margin-left: 90px;
+}
+.icons .ic2 h3{
+    font-size: 4vmin;
+}
+.icons .ic2 p{
+    margin-top: 10px;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+.dish h1{
+    font-size: 6vmin;
+    margin-top: 20px;
+    margin-left: 10vh;
+}
+.c1{
+    margin-left: 50px;
+}
+.c3{
+    margin-right: 50px;
+}
+.c1 h2{
+    font-size: 4vmin;
+    margin-top: 10px;
+}
+.c1 h3{
+    margin-top: 10px;
+    font-size: x-large;
+}
+.dish{
+    background-color: whitesmoke;
+}
+.c2 h2{
+font-size: 4vmin;
+margin-top: 10px;
+}
+.c2 h3{
+    margin-top: 10px;
+    font-size: x-large;
+}
+.c3 h2{
+    font-size: 4vmin;
+margin-top: 10px;
+}
+.c3 h3{
+    margin-top: 10px;
+    font-size: x-large;
+}
+.box-container{
+    margin: 50px;
+    padding: 20px;
+}
+.popular .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem ;
+}
+.popular .box-container .box{
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 8px 5px 8px rgba(0, 0, 0, .3);
+    border: 2px solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    text-align: center;
+    flex: 1 1 30rem;
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+}
+.popular .box-container .box img{
+    object-fit: cover;
+    width: 40%;
+    border-radius: .5rem;
+    margin-top: 50px;
+}
+.popular .box-container .box .prices{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: red;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2op;
+}
+.popular .box-container .box h3{
+    color: #333;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.popular .box-container .box .stars i{
+    color: #000;
+    font-size: 1rem;
+}
+.popular .box-container .box a{
+    position: relative;
+    padding: 8px 16px;
+    background: #e9004a;
+    color: aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    top: 30px;
+    font-size: 1.5rem;
+}
+.popular .box-container .box a:hover{
+
+        width: 100%;
+        color: rgb(204, 204, 20);
+        padding: 10px;
+        border-radius: 5px;
+        
+}
+.popular h1{
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    right: 30%;
+    top: 10px;
+}
+.popular #t{
+    color: rgb(243, 123, 11);
+}
+.popular #a{
+    color: rgb(61, 136, 23);
+}
+.dining{
+    background: -webkit-linear-gradient(#f7c00e, #DD5616);
+    display: flex;
+    
+    
+}
+.ct{
+    flex-direction: column;
+    padding: 70px;
+    margin-left: 50px;
+
+}
+.ct h2{
+    font-size: 6vmin;
+    word-spacing: 4px;
+}
+.ct p{
+    font-size: 3vmin;
+    margin-top: 20px;
+}
+.ct button{
+    margin-top: 20px;
+    width: 26%;
+    padding: 20px;
+    font-size: large;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(207, 207, 207);
+    background: linear-gradient(#ff8008, #ffc837);
+}
+.dining img{
+    position: relative;
+    left: 20%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 24%;
+    height: 40vh;
+    box-shadow: 8px 5px 8px 5px rgba(0, 0, 0, .3);
+    border: 2px solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+
+}
+.ct button:hover{
+    color: #fff;
+    background: #ff8008;
+    cursor: pointer;
+    width: 30%;
+    font-size: larger;
+}
+footer{
+    display: flex;
+    background: #181818; 
+    padding: 30px;  
+    color: #fff;
+    justify-content: space-around;
+    
+}
+footer .Cc h1 {
+     font-size: 4vmin;
+}
+footer .Cc p{
+    font-weight: bold;
+    margin-left: 6px;
+} 
+footer .Cc h4{
+    font-size: 17px;
+    margin-left: 6px;
+}
+footer .Cc span{
+    font-weight: bolder;
+}
+footer .Cc i{
+    margin: 5px;
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+footer .ac .ul1 a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 30px;
+    position: relative;
+    right: 25%;
+    font-size: large;
+}
+footer .bc .ul2 li{
+    list-style: none;
+    margin: 22px;
+    font-size: large;
+    position: relative;
+    right: 15%;
+    list-style-type: disc;
+} 
+.ac .ul1 a:hover{
+        background: #250f05;
+        width: 68%;
+        color: rgb(141, 141, 139);
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bolder;
+}
+.bc .ul2 li:hover{
+    background: #250f06;
+        width: 79%;
+        color: rgb(141, 141, 139);
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bolder;
+}
+.Cc i:hover{
+        font-size: xx-large;
+}

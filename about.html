@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .logo h2{
+        font-size: 4vmin;
+        margin-top: 5px;
+        margin-left: 30px;
+        background: -webkit-linear-gradient(#F9AF01, #DD5616);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+    .navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    justify-content: space-between;
+   padding: 20px 10px;
+   text-decoration: none;
+   background: #181818;
+   color: aliceblue;
+   height: 100px;
+   align-items: center;
+
+}
+.navcont{
+    display: flex;
+    list-style: none;
+    align-items: center; 
+}
+.navcont li a:hover{
+    background: #5a2a13;
+    width: 100%;
+    padding: 13px;
+    border-radius: 5px;
+   
+}
+ul li a{
+    text-decoration: none;
+    font-size: 3vmin;
+    color: aliceblue;
+
+}
+ul li {
+    margin: 0 40px;
+}
+    .content{
+        
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #191919;
+    
+    }
+    .content img{
+        margin-top: 80px;
+        margin-left: 90px;
+        padding: 20px;
+        height: 40%;
+	width: 430px;
+    }
+    .content .info{
+        width: 550px;
+        margin-top: 70px;
+    }
+    button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+.content .info{
+    position: relative;
+    right: 7%;
+}
+.content .info h1{
+    letter-spacing: 5px;
+    font-size: 7vmin;
+    color: antiquewhite;
+}
+.content .info h2{
+    margin-top: 10px;
+    font-size: 4vh;
+    color: azure;
+    margin-bottom: 10px;
+}
+.content .info p{
+    margin-bottom: 18px;
+    font-size: xx-large;
+    color: bisque;
+    letter-spacing: 4px;
+}
+footer{
+        background: rgb(22, 22, 22);
+        color: azure;
+        text-align: center;
+        padding: 40px;
+        
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <h2>TG Restaurant</h2>
+        </div>
+        <ul class="navcont">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cont.html" >Contact Us</a></li>
+        </ul>
+      </nav>
+    <div class="content">
+        <img src="./img/18.jpg" >
+        <div class="info">
+        <h1>About US</h1>
+        <h2>Owner OF TG Reastaurant</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ex praesentium velit<br>distinctio officiis, adipisci veniam, qui iste temporibus odio repellendus facere <br>eaque ipsum explicabo laboriosam dignissimos nostrum. Animi, reiciendis!</p>
+        <button type="button">Let's Talk</button>
+    </div>
+    </div>
+    <hr>
+    <footer>
+        <h3>CopyWright Claims At @TGRES</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus soluta quae nobis officia eius repellend</p>
+    </footer>
+</body>
+</html>
